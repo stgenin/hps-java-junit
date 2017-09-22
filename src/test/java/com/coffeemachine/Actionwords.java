@@ -120,4 +120,8 @@ public class Actionwords {
 
         assertEquals(sut.getSettings(), settings);
     }
+	public void aNotificationAboutDescalingIsRequired() {
+	assertTrue(sut.isDescalingNeeded());
+
+	}
 }
